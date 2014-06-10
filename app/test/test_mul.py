@@ -10,7 +10,7 @@ class TestUM(unittest.TestCase):
         self.assertEqual( sqrt(16), 4)
 
     def test_strings_a_3(self):
-        self.assertEqual( sqrt(25), 5)
+        self.assertEqual( sqrt(25), 3)
 
 if __name__ == '__main__':
     unittest.main()
